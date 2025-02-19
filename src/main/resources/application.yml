@@ -1,0 +1,11 @@
+server:
+  port: 9012
+spring:
+  application:
+    name: demo21
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        options:
+          model: deepseek-r1:8b
