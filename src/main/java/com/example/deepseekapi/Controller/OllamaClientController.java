@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2025/2/18 下午4:40
  */
 @RestController
-public class ollamaClientController {
+public class OllamaClientController {
     @Autowired
     @Qualifier("ollamaChatClient")
     private OllamaChatClient ollamaChatClient;
